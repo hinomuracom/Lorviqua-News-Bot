@@ -11,7 +11,7 @@ import google.generativeai as genai
 # ==========================================
 # 1. 환경 변수 로드
 # ==========================================
-KEYWORD = os.getenv("SEARCH_KEYWORD", "로비큐아 OR 롤라티닙")
+KEYWORD = os.getenv("SEARCH_KEYWORD", "로비큐아 OR ALK 돌연변이")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 NAVER_CLIENT_ID = os.getenv("NAVER_CLIENT_ID")
 NAVER_CLIENT_SECRET = os.getenv("NAVER_CLIENT_SECRET")
