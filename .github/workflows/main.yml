@@ -24,7 +24,7 @@ jobs:
 
       - name: Run script
         env:
-          SEARCH_KEYWORD: '로비큐아 OR 롤라티닙'
+          SEARCH_KEYWORD: '로비큐아 OR ALK 돌연변이'
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
